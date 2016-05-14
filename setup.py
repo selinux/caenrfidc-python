@@ -1,11 +1,11 @@
 from distutils.core import setup, Extension
 
-module = Extension('caenrfidc-python',
+module = Extension('caenrfidc',
 		libraries	= ['msgbuff', 'caenrfid'],
 		sources		= ['caenrfidcmodule.c'],
 	)
 
-setup (name = 'caenrfidc-python',
+setup (name = 'caenrfidcn',
 		version		= '0.10.0',
 		description	= 'CAENRFID client support.',
 		maintainer	= "Rodolfo Giometti",
